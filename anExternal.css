@@ -1,0 +1,48 @@
+/* CSS Document */
+
+body {
+    background-color: lightblue;
+}
+
+.yodaImg {
+    height: 50px;
+    width: 50px;
+}
+
+#memeContainer {
+    position: relative;
+}
+
+#yodaMeme {
+    width:100%;
+    height: auto;
+    margin: 20px;
+}
+
+#memeText {
+    Left: 50%;
+    border-style: dotted;
+    border-width: thin;
+    text-shadow: 5px 5px 5px purple;
+    position:absolute;
+    text-align: center;
+    top: 50%;
+    width: 100%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate (-50%, -50%);
+    color: white;
+}
+
+#floatedLightsaber {
+    float: right;
+    background: #73AD21;
+    padding: 20px;
+    width: 200px;
+    height:150px;
+    border-radius: 25px;
+}
+
+#lightsaberImg {
+    width: 150px;
+}
+
